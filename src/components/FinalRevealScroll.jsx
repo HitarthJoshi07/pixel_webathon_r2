@@ -89,8 +89,7 @@ const FinalVideoScroll = () => {
       ref={containerRef}
       className="relative w-full overflow-hidden h-screen flex flex-col items-center justify-center"
       style={{
-        backgroundImage:
-          'url("/images/grid.jpg")',
+        backgroundImage: `url(${import.meta.env.BASE_URL}images/grid.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
