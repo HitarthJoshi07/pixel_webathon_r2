@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Loader from './components/Loader';
 import Furrow from './components/Furrow'
-import OilstainHero from './components/components.jsx/OilstainHero';
+import OilstainHero from './components/OilstainHero';
 import RevealImageScroll from './components/RevealImageScroll';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 
 
 const App = () => {

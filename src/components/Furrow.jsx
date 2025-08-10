@@ -11,7 +11,7 @@ import FinalVideoScroll from './FinalRevealScroll';
 
 
 import LearningModules from './LearningModules';
-import Card from './components.jsx/Card';
+import Card from './Card';
 import { Car } from 'lucide-react';
 
 import SectionScroller from './SectionScroller';

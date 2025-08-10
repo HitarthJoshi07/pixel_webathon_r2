@@ -6,5 +6,5 @@ import autoprefixer from 'autoprefixer';
 export default defineConfig({
 
   plugins: [tailwindcss(),react()],
-
+  base: '/pixel_webathon_r2/',
     },);

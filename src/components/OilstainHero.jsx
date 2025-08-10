@@ -3,8 +3,8 @@ import { AnimatePresence, motion, useMotionValue, useTransform,useScroll, useSpr
 import Lenis from "@studio-freight/lenis";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import RevealImageScroll from "../RevealImageScroll";
-import RevealSection from '../RevealImageScroll';
+import RevealImageScroll from "./RevealImageScroll";
+import RevealSection from './RevealImageScroll';
 import ChatBot from "./ChatBot";
 import Card from "./Card";
 
