@@ -18,7 +18,7 @@ const ChatBot = () => {
         method: "POST",
         headers: {
           Authorization:
-            "Bearer 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",
+            "Bearer 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",
           "HTTP-Referer": "https://www.sitename.com",
           "X-Title": "SiteName",
           "Content-Type": "application/json",
