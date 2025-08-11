@@ -441,7 +441,7 @@ export default function LearningModules() {
   }
 
   return (
-    <div style={{ backgroundColor: "#FFFFFF" }} className="min-h-screen px-4 py-12">
+    <div style={{ backgroundColor: "#000000ff" }} className="min-h-screen px-4 py-12">
       <style>{`
         /* scrollbar */
         .custom-scrollbar::-webkit-scrollbar { width: 10px; height: 10px; }
@@ -455,8 +455,8 @@ export default function LearningModules() {
 
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-10">
-          <h1 style={{ color: "#000000" }} className="text-4xl font-extrabold">Learning Modules</h1>
-          <p style={{ color: "#343434" }} className="mt-2 max-w-2xl mx-auto">Comprehensive financial literacy — read the module, then test your knowledge.</p>
+          <h1 style={{ color: "#ffffffff" }} className="text-4xl font-extrabold">Learning Modules</h1>
+          <p style={{ color: "#ffffffff" }} className="mt-2 max-w-2xl mx-auto">Comprehensive financial literacy — read the module, then test your knowledge.</p>
         </header>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -466,18 +466,18 @@ export default function LearningModules() {
               onClick={() => openModule(idx)}
               className="rounded-2xl overflow-hidden cursor-pointer transition-transform duration-300"
               style={{
-                backgroundColor: "#FFFFFF",
-                boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                backgroundColor: "#b4b4b4ff",
+                boxShadow: "0 2px 8px rgba(255, 255, 255, 0.08)",
               }}
               onMouseEnter={e => {
                 e.currentTarget.style.transform = "translateY(-6px)";
                 e.currentTarget.style.boxShadow = "0 8px 24px rgba(0,0,0,0.12)";
-                e.currentTarget.style.backgroundColor = "#F5F5F5";
+                e.currentTarget.style.backgroundColor = "#bbbbbbff";
               }}
               onMouseLeave={e => {
                 e.currentTarget.style.transform = "translateY(0)";
                 e.currentTarget.style.boxShadow = "0 2px 8px rgba(0,0,0,0.08)";
-                e.currentTarget.style.backgroundColor = "#FFFFFF";
+                e.currentTarget.style.backgroundColor = "#cacacaff";
               }}
             >
               <div className="relative h-44 w-full overflow-hidden">
