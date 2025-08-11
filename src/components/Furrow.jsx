@@ -180,7 +180,7 @@ useEffect(() => {
                 muted
                 loop
                 className="absolute inset-0 w-full h-full object-cover"
-                src={`${import.meta.env.BASE_URL}videos/hero-1.mp4`}
+                src={`${import.meta.env.BASE_URL}videos/hero-1_main.mp4`}
               />
               <canvas
                 ref={canvasRef}
